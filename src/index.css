@@ -51,10 +51,10 @@
 
 @layer components {
     .primary-btn {
-        @apply bg-orange-50 text-white px-8 py-4 rounded-lg font-semibold hover:bg-orange-50/90 transition-colors;
+        @apply bg-orange-50 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-50/90 transition-colors;
     }
     .secondary-btn {
-        @apply px-8 py-4 bg-white border border-white-95 rounded-md hover:bg-orange-90 transition-colors;
+        @apply px-6 py-3 bg-white border border-white-95 rounded-md hover:bg-orange-90 transition-colors;
     }
     .play-btn {
         animation: 2s pulseAni ease infinite;
@@ -72,9 +72,9 @@
 /*Header*/
 
 .navbar {
-    @apply lg:hidden fixed top-0 left-0 bg-white w-full h-screen flex flex-col items-center justify-center -translate-y-full transition-transform duration-400 z-40 ;
+    @apply lg:hidden fixed top-0 left-0 bg-white w-full h-screen flex flex-col items-center justify-center -translate-x-full transition-transform duration-400 z-40 ;
 }
 
 .navbar.active {
-    @apply translate-y-0 transition-all duration-400
+    @apply translate-x-0 transition-all duration-400
 }
