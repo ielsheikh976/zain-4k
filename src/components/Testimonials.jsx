@@ -12,7 +12,7 @@ import * as variants from "../motion/animation.js";
 
 const Testimonials = () => {
     return (
-        <section className="section">
+        <section className="section" id="testimonials">
             <motion.div className="container" variants={variants.staggerContainer} initial='hidden'
                         viewport={{once: true}}
                         whileInView='show'>
@@ -67,13 +67,13 @@ const Testimonials = () => {
                     </Swiper>
                 </motion.div>
                 <motion.div variants={variants.fadeInUp} className="flex items-center justify-center mt-18 gap-5">
-                    <button className="bg-orange-70 w-12 h-12 flex items-center justify-center rounded-xl
-                    hover:bg-orange-75 transition-colors active:bg-orange-75/80 prev-btn">
+                    <button className="bg-secondary w-12 h-12 flex items-center justify-center rounded-xl
+                    hover:bg-secondary/90 transition-colors active:bg-secondary/80 prev-btn text-white">
                         <RiArrowLeftLine size={30}/>
                     </button>
 
-                    <button className="bg-orange-70 w-12 h-12 flex items-center justify-center rounded-xl
-                    hover:bg-orange-75 transition-colors active:bg-orange-75/80 next-btn">
+                    <button className="bg-secondary w-12 h-12 flex items-center justify-center rounded-xl
+                    hover:bg-secondary/90 transition-colors active:bg-secondary/80 next-btn text-white">
                         <RiArrowRightLine size={30}/>
                     </button>
                 </motion.div>

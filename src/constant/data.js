@@ -11,27 +11,27 @@ export const navItems = [
   {
     id: 1,
     label: "Home",
-    href: "#home",
+    href: 'home',
   },
   {
     id: 2,
     label: "Courses",
-    href: "#courses",
+    href: 'courses',
   },
   {
     id: 3,
     label: "About Us",
-    href: "#about",
+    href: 'about',
   },
   {
     id: 4,
     label: "Pricing",
-    href: "#pricing",
+    href: 'pricing',
   },
   {
     id: 5,
     label: "Contact",
-    href: "#contact",
+    href: 'contact',
   },
 ];
 

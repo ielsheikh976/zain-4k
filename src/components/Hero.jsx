@@ -7,7 +7,7 @@ import * as variants from "../motion/animation.js";
 
 const Hero = () => {
     return (
-        <section>
+        <section id="home">
             <motion.div variants={variants.staggerContainer} initial='hidden'
                         viewport={{once: true}}
                         whileInView='show' className="container">

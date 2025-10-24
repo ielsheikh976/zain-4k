@@ -2,7 +2,7 @@ export const staggerContainer = {
     hidden: {},
     show: {
         transition: {
-            staggerChildren: 0.4,
+            staggerChildren: 0.2,
         },
     },
 };
@@ -16,7 +16,7 @@ export const fadeIn = {
         opacity: 1,
         filter: "blur(0)",
         transition: {
-            duration: 0.7,
+            duration: 0.4,
             ease: "easeOut",
         }
     }
@@ -34,7 +34,7 @@ export const fadeInUp = {
         opacity: 1,
         filter: "blur(0)",
         transition: {
-            duration: 0.7,
+            duration: 0.4,
             ease: "easeOut",
         }
     }

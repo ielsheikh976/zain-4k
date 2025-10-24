@@ -7,7 +7,7 @@ import * as variants from "../motion/animation.js";
 
 const Courses = () => {
     return (
-        <section className="section">
+        <section className="section" id="courses">
             <motion.div className="container" variants={variants.staggerContainer} initial='hidden'
                  viewport={{once: true}}
                  whileInView='show'>
@@ -18,7 +18,7 @@ const Courses = () => {
                 <div className="grid gap-5 lg:grid-cols-2 mt-8 lg:mt-16">
                     {coursesSecItems.map((item) => (
                         <motion.div variants={variants.fadeInUp} className="bg-white p-7 lg:p-10 rounded-[10px]" key={item.id}>
-                            <div className="">
+                            <div>
                                 <img src={item.img} alt={item.title} width={560} height={266}
                                      className="w-full h-full object-cover rounded-[10px]"/>
                             </div>

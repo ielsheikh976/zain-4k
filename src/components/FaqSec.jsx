@@ -12,7 +12,7 @@ const FaqSec = () => {
         setOpenId(openId === id ? null : id);
     }
     return (
-        <section className="section pb-[90px] lg:mb-[160px]">
+        <section className="section pb-[90px] lg:mb-[160px]" id="faq">
             <motion.div className="container" variants={variants.staggerContainer} initial='hidden'
                  viewport={{once: true}}
                  whileInView='show'>
@@ -26,8 +26,8 @@ const FaqSec = () => {
                             <motion.div variants={variants.fadeInUp} className="space-y-3.5" key={item.id}>
                                 <div className="flex items-center justify-between gap-12 border-b border-b-white-95 pb-3 md:px-5">
                                     <h4 className="text-lg sm:text-xl">{item.title}</h4>
-                                    <button className="w-10 h-10 bg-orange-75 flex items-center justify-center aspect-square
-                                     rounded-lg hover:bg-orange-75/80 transition-colors" onClick={() => handleClick(item.id)}>
+                                    <button className="w-10 h-10 bg-secondary flex items-center justify-center aspect-square
+                                     rounded-lg hover:bg-secondary/90 text-white transition-colors" onClick={() => handleClick(item.id)}>
                                         <RiAddLine className={`transition ${openId === item.id ? "rotate-45": ""}`} size={30}/>
                                     </button>
                                 </div>
