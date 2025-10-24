@@ -228,17 +228,17 @@ export const contactInfo = [
   {
     id: 1,
     icon: RiPhoneFill,
-    label: "hello@skillbridge.com",
+    label: "ibrahimelsheikh196@gmail.com",
   },
   {
     id: 2,
     icon: RiMailSendFill,
-    label: "+91 91813 23 2309",
+    label: "+20 1277104751",
   },
   {
     id: 3,
     icon: RiUserLocationLine,
-    label: "Somewhere in the World",
+    label: "Cairo, Egypt",
   },
 ];
 

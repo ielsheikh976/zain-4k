@@ -16,7 +16,7 @@ const FaqSec = () => {
             <motion.div className="container" variants={variants.staggerContainer} initial='hidden'
                  viewport={{once: true}}
                  whileInView='show'>
-                <div className="grid gap-10 p-5 lg:grid-cols-[0.7fr_1fr] items-start bg-white rounded-lg md:p-10">
+                <div className="grid gap-10 p-5 lg:grid-cols-[0.7fr_1fr] items-start bg-white rounded-lg md:p-10 shadow-md">
                     <Title title='Frequently Asked Questions'
                     text='Still you have any questions? Contact our Team via ibrahimelsheikh196@gmail.com'
                     link='See All FAQ’s'/>

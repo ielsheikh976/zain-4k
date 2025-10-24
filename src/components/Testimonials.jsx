@@ -48,7 +48,7 @@ const Testimonials = () => {
                         className="mt-14 lg:mt-16">
                         {testimonialsItems.map(item => (
                             <SwiperSlide
-                                className="bg-white border border-white-95 p-8 lg:p-10 rounded-[10px] space-y-3"
+                                className="bg-white border border-white-95 p-8 lg:p-10 rounded-[10px] space-y-3 shadow-md"
                                 key={item.id}>
                                 <p>{item.text}</p>
                                 <div

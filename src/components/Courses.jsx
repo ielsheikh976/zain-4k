@@ -17,10 +17,11 @@ const Courses = () => {
                        link='View All'/>
                 <div className="grid gap-5 lg:grid-cols-2 mt-8 lg:mt-16">
                     {coursesSecItems.map((item) => (
-                        <motion.div variants={variants.fadeInUp} className="bg-white p-7 lg:p-10 rounded-[10px]" key={item.id}>
-                            <div>
+                        <motion.div variants={variants.fadeInUp} className="shadow-md bg-white p-7 lg:p-10 rounded-[10px]" key={item.id}>
+                            <div className="relative overflow-hidden rounded-[10px]">
                                 <img src={item.img} alt={item.title} width={560} height={266}
-                                     className="w-full h-full object-cover rounded-[10px]"/>
+                                     className="w-full h-full object-cover rounded-[10px]
+                                     transition-transform duration-500 ease-in-out hover:scale-110"/>
                             </div>
 
                             <div className="mt-6">
